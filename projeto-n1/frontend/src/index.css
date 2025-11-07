@@ -3,15 +3,19 @@
 @tailwind utilities;
 
 body {
-  background-color: #556B2F; /* verde musgo */
-  color: #FBBF24; /* texto âmbar */
+  background-color: #556B2F;
+  /* verde musgo */
+  color: #FBBF24;
+  /* texto âmbar */
   font-family: 'Inter', sans-serif;
 }
 
 ::-webkit-scrollbar {
   width: 8px;
 }
+
 ::-webkit-scrollbar-thumb {
-  background-color: #8B4513; /* marrom */
+  background-color: #8B4513;
+  /* marrom */
   border-radius: 8px;
 }

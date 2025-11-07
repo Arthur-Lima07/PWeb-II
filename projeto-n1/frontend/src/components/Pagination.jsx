@@ -12,11 +12,10 @@ export default function Pagination({ page, pages, onChange }) {
         <button
           key={p}
           onClick={() => onChange(p)}
-          className={`px-3 py-1 rounded ${
-            p === page
+          className={`px-3 py-1 rounded ${p === page
               ? 'bg-amber-500 text-[#8B4513]'
               : 'bg-[#8B4513] text-amber-200 hover:bg-amber-700'
-          }`}
+            }`}
         >
           {p}
         </button>

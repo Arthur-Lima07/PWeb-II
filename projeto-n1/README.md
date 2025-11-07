@@ -4,7 +4,6 @@ Como rodar
 1. Backend
 
 cd backend
-cp .env.example .env (Deve editar MONGO_URI e JWT_SECRET)
 npm install
 npm run dev
 
@@ -15,7 +14,6 @@ npm run dev
 cd frontend
 npm install
 npm run dev
-
 
 
 Acesse http://localhost:3001
